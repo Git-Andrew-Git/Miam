@@ -1,0 +1,161 @@
+.container {
+  height: calc(100vh - 60px);
+  width: 100%;
+  margin-top: 5.5rem;
+  margin-bottom: -5.5rem;
+}
+
+.wrapper {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.title {
+  color: orange;
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  white-space: nowrap;
+}
+
+.firstMsg {
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.firstMsg > span {
+  color: orange;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.secondMsg {
+  font-size: 26px;
+}
+
+.secondMsgV > span {
+  font-weight: bold;
+  color: orange;
+}
+
+.desc {
+  color: #555;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 50px;
+  min-width: 350px;
+  line-height: 30px;
+}
+
+.buttons {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttonSee {
+  outline: none;
+  border: 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
+  border-color: orange;
+
+  color: white;
+  background-color: orange;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 150ms all;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* .buttons .order {
+  outline: none;
+  border: 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
+  border-color: orange;
+
+  color: white;
+  background-color: orange;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 150ms all;
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+.buttonOrder {
+  outline: none;
+  border: 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem;
+  border-color: orange;
+
+  color: white;
+  background-color: orange;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 150ms all;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.buttonOrder:hover {
+  border-color: orange;
+  background-color: white;
+  color: orange;
+}
+
+.buttonSee:hover {
+  border-color: orange;
+  background-color: white;
+  color: orange;
+}
+
+.buttonSee > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.right {
+  flex: 1;
+}
+
+.manEatingImg {
+  height: 85%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .buttonOrder {
+  color: white;
+  text-decoration: none;
+}
+
+.buttonOrder:hover {
+  color: orange;
+  background-color: white;
+} */
+
+/* .link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: orange;
+} */
